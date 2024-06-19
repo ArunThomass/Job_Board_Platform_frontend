@@ -53,12 +53,11 @@ const Register = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/JobZeelogo.png" alt="logo" />
             <h3>Create a new account</h3>
           </div>
           <form>
             <div className="inputTag">
-              <label>Register As</label>
+              
               <div>
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
@@ -69,11 +68,11 @@ const Register = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Name</label>
+              
               <div>
                 <input
                   type="text"
-                  placeholder="Zeeshan"
+                  placeholder="Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -81,11 +80,11 @@ const Register = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Email Address</label>
+              
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -93,11 +92,11 @@ const Register = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Phone Number</label>
+              
               <div>
                 <input
                   type="number"
-                  placeholder="12345678"
+                  placeholder="Phone Number"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -105,11 +104,11 @@ const Register = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Password</label>
+              
               <div>
                 <input
                   type="password"
-                  placeholder="Your Password"
+                  placeholder="Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -123,7 +122,7 @@ const Register = () => {
           </form>
         </div>
         <div className="banner">
-          <img src="/register.png" alt="login" />
+          <img src="/signin.jpg" alt="login" />
         </div>
       </section>
     </>

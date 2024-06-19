@@ -32,12 +32,11 @@ const HeroSection = () => {
     <div className="heroSection">
         <div className="container">
           <div className="title">
-            <h1>Find a job that suits</h1>
-            <h1>your interests and skills</h1>
+            <h1>Are you looking for</h1>
+            <h1>your dream Job ?</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              voluptate repellat modi quidem aliquid eaque ducimus ipsa et,
-              facere mollitia!
+            No matter the skills, experience or qualifications you’re looking for, you’ll find the right people here.
+
             </p>
           </div>
           <div className="image">

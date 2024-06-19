@@ -46,12 +46,12 @@ const Login = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/JobZeelogo.png" alt="logo" />
-            <h3>Login to your account</h3>
+            
+            <h3>Login</h3>
           </div>
           <form>
             <div className="inputTag">
-              <label>Login As</label>
+              
               <div>
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
@@ -62,11 +62,11 @@ const Login = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Email Address</label>
+              
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -74,11 +74,11 @@ const Login = () => {
               </div>
             </div>
             <div className="inputTag">
-              <label>Password</label>
+              
               <div>
                 <input
                   type="password"
-                  placeholder="Your Password"
+                  placeholder="Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -92,7 +92,7 @@ const Login = () => {
           </form>
         </div>
         <div className="banner">
-          <img src="/login.png" alt="login" />
+          <img src="/login.jpg" alt="login" />
         </div>
       </section>
     </>

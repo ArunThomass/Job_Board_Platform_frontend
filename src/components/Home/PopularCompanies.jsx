@@ -6,22 +6,22 @@ const PopularCompanies = () => {
   const companies = [
     {
       id: 1,
-      title: "Microsoft",
-      location: "Street 10 Karachi, Pakistan",
+      title: "Wipro",
+      location: "Bengaluru, Karnataka",
       openPositions: 10,
       icon: <FaMicrosoft />,
     },
     {
       id: 2,
       title: "Tesla",
-      location: "Street 10 Karachi, Pakistan",
+      location: "Street 10 , Mumbai",
       openPositions: 5,
       icon: <SiTesla />,
     },
     {
       id: 3,
-      title: "Apple",
-      location: "Street 10 Karachi, Pakistan",
+      title: "Infosys",
+      location: "Bengaluru, Karnataka",
       openPositions: 20,
       icon: <FaApple />,
     },
